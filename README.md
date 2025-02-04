@@ -15,15 +15,15 @@ Without any required input, the module creates everything you need for a quick e
 
 ```hcl
 module "win-python-ec2" {
-  source                 = "plus3it/win-python-ec2/aws"
+  source                 = "MetroStar/win-python-ec2/aws"
   version                = "1.0.2"
 }
 ```
 
 ## Examples
 
-* [Basic Python EC2 instance](https://github.com/plus3it/terraform-aws-win-python-ec2/tree/master/examples/basic)
-* [Non-Default Python EC2 instance](https://github.com/plus3it/terraform-aws-win-python-ec2/tree/master/examples/non_default)
+* [Basic Python EC2 instance](https://github.com/MetroStar/terraform-aws-win-python-ec2/tree/master/examples/basic)
+* [Non-Default Python EC2 instance](https://github.com/MetroStar/terraform-aws-win-python-ec2/tree/master/examples/non_default)
 
 ## Networking
 
@@ -41,7 +41,7 @@ However, the module may also have vulnerabilities and should only be used for cr
 
 ## Authors
 
-Module managed by [Plus3 IT](https://github.com/plus3it).
+Module managed by [Plus3 IT](https://github.com/MetroStar).
 
 ## License
 
